@@ -1,0 +1,12 @@
+.projectlist{
+    font-size: 14px;
+    margin-right: 50px;
+    padding:  7px;
+    border-radius: 30px;
+
+
+    &.active{
+        background-color: rgb(204, 202, 202);
+        color: rgb(0, 0, 0);
+    }
+}

@@ -1,0 +1,43 @@
+.Menu{
+    width: 300px;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top:0;
+    right: -300px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease;
+
+
+    &.active{
+        right: 0;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 40px;
+        font-weight: 200;
+        color: azure;
+        width: 60%;
+
+        li{
+            margin-bottom: 35px;  
+            a{
+                font-size: 25px;
+                color:blanchedalmond;
+                text-decoration: none;
+            }
+
+            &.hover{
+                font-weight: 550;
+            }
+        }
+        
+    }
+
+}
